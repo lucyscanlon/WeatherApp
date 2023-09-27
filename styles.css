@@ -3,6 +3,10 @@
 
 /* global styles */
 
+/*
+
+original styles 
+
 
 * {
     margin: 0;
@@ -99,3 +103,284 @@ body {
     font-size: 28px;
     margin-top: -6px;
 }
+
+*/
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+
+}
+
+.searchbar-width-container {
+    width: 100%;
+    height: 70px;
+    background-color: #F5F5F5;
+}
+
+.searchbar-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #fff;
+    color: #555;
+    padding: 5px 25px;
+    height: 30px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 16px;
+    margin-top: 15px;
+
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.search button img {
+    width: 14px;
+    position: relative;
+    top: 1.5px;
+    right: 1px;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(253,165,45,1) 0%, rgba(255,164,231,1) 100%);
+}
+
+ .date {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+ .location {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+ .country {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.weather-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 190px;
+}
+
+.temp {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.temperature-line {
+    width: 300px;
+    border: solid white 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.high-low-temp {
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 0px;
+
+}
+
+.low-temp {
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    float: left;
+
+}
+
+.high-temp {
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    float: right;
+}
+
+.temp-circle-container {
+    width: 310px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 11px;
+}
+
+.temp-circle  {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 220px;
+}
+
+.sunrise-sunset-container {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-size: 16px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.sunrise-sunset-container p {
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.humidity-wind-container {
+    width: 25%;
+    min-width: 350px;
+    margin: 0 auto;
+    padding-top: 50px;
+    overflow: auto;
+
+}
+
+.humidity-container {
+    width: 50%;
+    float: left;
+    display: flex;
+}
+
+.wind-container {
+    width: 50%;
+    float: right;
+    display: flex;
+    text-align: right
+
+}
+
+.humidity-wind-container img {
+    width: 60px;
+  
+}
+
+.humidity-container p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+   
+}
+
+.humidity-container div {
+    margin-top: 5px;
+}
+
+.wind-container p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 10px;
+    float: right;
+}
+
+.wind-container div {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.weather-description-feels-like-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.weather-description-feels-like-container p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+}
+
+p .bold {
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-text {
+
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    left: 41%;
+    
+}
+
+
+
+
